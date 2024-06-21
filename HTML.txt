@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "styles.css">
+    <h1 id ="title">Sign Up Survey Form
+      <title>Sign Up Survey Form</title>
+    </h1>
+  </head>
+
+  <body>
+    <p id = "description">Please complete the sign up form. Thanks!</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Enter your name: <input id ="name" type="text" required placeholder="e.g Jon"/></label>
+
+        <label for="email" id="email-label">Enter your email: <input id ="email" type="email" required placeholder="e.g someone@gmail.com"/></label>
+
+        <label for="number" id="number-label">Enter your number (0-9): <input id ="number" type="number" min=0 max=9 placeholder="e.g 6"/></label>
+        <label for="dropdown">Select your gender:
+          <select id="dropdown" name="dropdown">
+            <option value="0">Select one</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+          </select>
+        </label>
+
+        <legend>Account type (required)</legend>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" value="1" class="inline" checked/> Personal</label>
+
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" value= "2" class="inline" checked/> Business</label>
+
+        <label for="feedback">Please give feedback on this form
+          <textarea id="feedback" name="bio" rows="3" cols ="30" placeholder="e.g It was easy to navigate."></textarea>
+        </label>
+
+        <label for="age"><input id="age" type="checkbox" required names="age" class="inline" value="1"/>I am 13 years or older</label>
+
+        <label for="tandc"><input id="tandc" type="checkbox" required names="tandc" class="inline" value="1"/>I accept the Terms and Conditions</label>
+
+        <label for="submit">
+          <input id="submit" class="inline" type="submit" value="Submit" />
+        </label>
+
+
+
+
+
+
+        
+
+
+
+
+    </form>
+
+
+
+
+  </body>
